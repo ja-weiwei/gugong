@@ -1,7 +1,9 @@
 // 获取所有的元素
 var doms = document.querySelectorAll('.map .item-list li');
-var r = 250; // 半径
-var count = doms.length; // 元素的数量
+// 半径
+var r = 250;
+// 元素的数量
+var count = doms.length;
 
 // 平均分布元素
 function dispatch() {
